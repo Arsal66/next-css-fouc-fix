@@ -19,7 +19,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  optimizeFonts: true, // ✅ Ensures font optimization and prevents layout shift
+   // ✅ Ensures font optimization and prevents layout shift
   experimental: {
     optimizeCss: true, // ✅ Optional: optimize critical CSS for App Router
   },
